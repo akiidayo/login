@@ -127,6 +127,7 @@ p {
 }
 
 #box3 {
+  margin-left:-240px;
   margin-top: 0px;
   width: 60px; /* Adjust to your needs */
   height: 60px /* Adjust to your needs */

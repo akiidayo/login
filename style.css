@@ -128,15 +128,15 @@ p {
 
 #box3 {
   margin-top: 0px;
-  width: 300%;
-  height: 100%;
-  max-width: none;
-  box-shadow: 3px 3px 2px;
+  width: 100%; /* Adjust to your needs */
+  height: 100%; /* Adjust to your needs */
+  max-width: none; /* Remove the max-width constraint */
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  background-image: url("00013.png"); /* Replace with the path to your image */
-  background-size: cover; /* Adjust the image to cover the entire box */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center; /* Center the image in the box */
+  background-image: url("00013.png");
+  background-size: contain; /* Ensure the entire image fits */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (max-width: 768px) {

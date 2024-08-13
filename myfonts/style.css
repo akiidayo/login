@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: red;
+  font-family: z003;
+  font-size: 3em;
+}
+
+p {
+  color: yellow;
+  font-family: urw bookman;
+  font-size: 1em;
+  font-style: italic;
+}

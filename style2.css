@@ -1,0 +1,131 @@
+@font-face {
+  src: url(myfonts/Caveat.ttf);
+  font-family: Caveat;
+}
+@font-face {
+  src: url(myfonts/DancingScript.ttf);
+  font-family: DancingScript;
+}
+
+body {
+  background-color: #000000;
+  border: 1px outset #a39780;
+  border-radius: 15px;
+  background-image: url("00268.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h3 {
+  display: flex;
+  margin-left: 900px;
+  border: 1px inset #f8733d;
+  background-color: #a21687;
+  border-radius: 15px;
+  color: red;
+  font-family: DancingScript;
+  font-size: 3em;
+  text-align: center;
+}
+
+h4 {
+  border: 0px inset #f8733d;
+  border-radius: 15px;
+  color: red;
+  font-family: DancingScript;
+  font-size: 3em;
+  text-align: center;
+}
+
+#box2 {
+  margin-top: 250px;
+  margin-left: 1000px;
+  width: 150px;
+  height: 50px;
+  background-color: #ff3469;
+  box-shadow: 3px 3px 2px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+#box1 {
+  margin-left: 900px;
+  width: 300px;
+  hight: 40px;
+  padding: 20px;
+  background-color: #ff3469;
+  box-shadow: 3px 3px 2px;
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+  color: #18082c;
+  font-size: 1em;
+  font-family: Caveat;
+  margin-bottom: 5px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  color: #0f0519;
+  background-color: #28a8ea;
+  border: 1px inset blue;
+  border-radius: 15px;
+  font-family: Caveat;
+  margin-bottom: 15px;
+}
+
+.password {
+  font-family: DancingScript;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset-button,
+.submit-button {
+  width: 48%;
+  background-color: #28a8ea;
+  font-size: 1em;
+  font-family: Caveat;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.reset-button:hover,
+.submit-button:hover {
+  background-color: #1a7dbd;
+  color: #fff;
+}
+p {
+  color: #f3e24b;
+  font-family: DancingScript;
+  font-size: 4em;
+  text-align: center;
+}
+
+.a {
+  border-style: 1px inset #a50b88;
+  border-size: 1px;
+}
+
+#box3 {
+  margin-top: -60px;
+  margin-left: -630px;
+  width: 300px;
+  box-shadow: 3px 3px 2px;
+  border-radius: 10px;
+
+  background-image: url("00013.png"); /* Replace with the path to your image */
+  background-size: cover; /* Adjust the image to cover the entire box */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image in the box */
+}

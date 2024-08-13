@@ -130,7 +130,7 @@ p {
   margin-top: 0px;
   width: 300%;
   height: 100%;
-  max-width: 600px;
+  max-width: none;
   box-shadow: 3px 3px 2px;
   border-radius: 10px;
   background-image: url("00013.png"); /* Replace with the path to your image */

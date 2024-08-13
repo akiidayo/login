@@ -129,8 +129,8 @@ p {
 #box3 {
   margin-left:-240px;
   margin-top: 0px;
-  width: 60px; /* Adjust to your needs */
-  height: 60px /* Adjust to your needs */
+  width: 260px; /* Adjust to your needs */
+  height: 260px /* Adjust to your needs */
   max-width: none; /* Remove the max-width constraint */
   box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
   border-radius: 10px;

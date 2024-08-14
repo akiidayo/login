@@ -127,20 +127,18 @@ p {
 }
 
 #box3 {
-  margin-left: 10px;
-  margin-top: 0px;
-  width: 720px; /* Adjust to your needs */
-  height: 360px /* Adjust to your needs */
-  max-width: none; /* Remove the max-width constraint */
-  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 13px;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 600px;
+  box-shadow: 3px 3px 2px;
   border-radius: 10px;
-  background-image: url("00013.png");
-  background-size: contain; /* Ensure the entire image fits */
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("00013.png"); /* Replace with the path to your image */
+  background-size: cover; /* Adjust the image to cover the entire box */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image in the box */
 }
-
-
 @media screen and (max-width: 768px) {
   h4 {
     font-size: 2.5em;
